@@ -1,0 +1,35 @@
+# readme
+README.md
+
+# secrets
+.env
+*.key
+*.token
+*.secret
+
+# runtime
+logs/
+tmp/
+cache/
+sessions/
+
+# embeddings / vector stores
+embeddings/
+vectorstore/
+*.bin
+
+# python / node noise
+__pycache__/
+node_modules/
+
+# editor / os
+.vscode/
+.DS_Store
+
+# openclaw runtime data
+memory/
+tracker/
+output/
+backup/
+.trash/
+*.archive
